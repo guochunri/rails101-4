@@ -5,5 +5,5 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :trackable, :validatable
 
   has_many :groups
-  has_mahy :posts
+  has_many :posts
 end
